@@ -6,7 +6,7 @@ function LoadingScreen() {
   return (
     <div className="loading-screen">
       <img src={`${process.env.PUBLIC_URL}/gestor360.png`} alt="gestor360" className="gestor360" />
-      <p>Carregando...</p>
+      <p><strong>O poder da gestão em suas mãos...</strong></p>
     </div>
   );
 }

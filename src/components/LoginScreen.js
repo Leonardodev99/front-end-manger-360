@@ -7,7 +7,7 @@ function LoginScreen({ onLogin }) {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Aqui você pode adicionar a lógica de autenticação
+    
     onLogin();
   };
 
