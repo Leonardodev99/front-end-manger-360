@@ -1,0 +1,35 @@
+/* src/components/LoginScreen.css */
+.login-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .login-screen h2 {
+    color: #007BFF; /* Azul */
+  }
+  
+  .login-screen input {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+  }
+  
+  .login-screen button {
+    padding: 10px 20px;
+    background-color: #28A745; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-screen button:hover {
+    background-color: #218838;
+  }
+  

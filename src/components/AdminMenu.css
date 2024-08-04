@@ -1,0 +1,25 @@
+/* src/components/AdminMenu.css */
+.admin-menu {
+    padding: 20px;
+    background-color: white;
+    color: #007BFF; /* Azul */
+  }
+  
+  .admin-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-menu li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admin-menu li:hover {
+    background-color: #007BFF;
+    color: white;
+  }
+  

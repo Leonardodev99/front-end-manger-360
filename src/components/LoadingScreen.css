@@ -1,0 +1,20 @@
+/* src/components/LoadingScreen.css */
+.loading-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  p {
+    color: #333;
+    font-size: 18px;
+  }
+  
